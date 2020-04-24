@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>svg color adapter</title>
+<meta http-equiv="refresh" content="-1" />
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="jscolor.js"></script>
+</head>
+
+<body>
+<div class="container-fluid text-center mt-5">
+<div class="row justify-content-center">
+<div class="border p-2 shadow" width="400" >
+<h6 class="text-secondary" >SVG COLOR COMPARISION</h6>
+<canvas id="canvas" class="border text-center" width="400" height="300">canvas not supported</canvas><br/>
+<div class="input-group">
+<div class="btn-group-vertical display-block w-100">
+<!-- <input type="hidden"id="testname" placeholder="enter sample name" class="form-control text-center mt-1 d-none"/> -->
+<input type="text" maxlength="6" id="Silver:" placeholder="B4B4B4" class="form-control text-center mt-2 jscolor" />
+<input type="text" maxlength="6" id="Yellow" placeholder="BBB100" class="form-control text-center mt-1 jscolor"  />
+<input type="text" maxlength="6" id="Rose" placeholder="E0AFBC" class="form-control text-center mt-1 jscolor" />
+<input type="text" maxlength="6" id="White" placeholder="A3A3A3" class="form-control text-center mt-1 jscolor"  />
+<div class="btn-group mt-2">
+<input type="button" class="btn btn-outline-primary" value="email" />
+<input type="button" class="btn btn-outline-success" value="clipboard" />
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<script src="alloyColor.js"></script>
+<script>
+$(document).ready(new Product().init());
+</script>
+</body>
+
+</html>
