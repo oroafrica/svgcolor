@@ -1,0 +1,2 @@
+# svgcolor
+Color schema: SVG
